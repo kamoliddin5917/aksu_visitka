@@ -2,86 +2,115 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: white;
+  text-decoration: none;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   background-color: #242730;
   width: 100vw;
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+*/
 .container {
-  /* max-width: 1140px; */
+  max-width: 500px;
+  height: 820px;
   width: 100%;
   margin: 0 auto;
-  padding: 40px;
-
-  display: flex;
+  padding: 30px 40px;
   justify-content: space-around;
+  background-image: url(../img/X\ -\ 11.png);
+  background-position: 0 0;
+  background-size: contain;
 }
 
-.inner {
+.logo {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  margin-right: auto;
+  text-decoration: none;
+  width: 272px;
+  height: 113px;
+}
+
+.names {
+  margin-top: 95px;
 }
 
 .name {
-  color: #fff;
-  font-size: 25px;
-}
-.line {
-  background-color: #fff;
-  width: 200px;
-  height: 2px;
-  text-align: right;
-  margin-left: 0;
-}
-.job1 {
-  color: #fff;
-  font-size: 25px;
-}
-.job2 {
-  color: #fff;
-  font-size: 25px;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
 }
 
-.tel1-link {
-  color: gold;
-  text-decoration: none;
+.hr {
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.email-link {
-  color: gold;
-  text-decoration: none;
+.item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #afaeae;
+}
+
+.name2 {
+  margin-top: 30px;
+}
+
+.tel {
+  margin-top: 175px;
+}
+
+.img--tel {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tel1 {
+  margin-left: 17px;
+}
+
+.tel2 {
+  margin-left: 35px;
+  margin-top: 8px;
+}
+
+.tell {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.img-tel {
+  margin-top: 28px;
+  display: flex;
+  align-items: start;
+}
+
+.email {
+  margin-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
 }
 
 .adress {
-  color: #fff;
-}
-
-p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  margin-bottom: 10px;
-  line-height: normal;
-  word-spacing: 5px;
-  letter-spacing: 4px;
-}
-
-@media only screen and (max-width: 800px) {
-  .container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .left {
-    margin-bottom: 30px;
-  }
+  line-height: 22px;
 }
