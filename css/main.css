@@ -109,8 +109,51 @@
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
+  text-decoration-line: underline;
 }
 
 .adress {
   line-height: 22px;
+  text-decoration-line: underline;
+}
+.tell-icon {
+  animation: btn-anim 2s linear infinite;
+}
+.map {
+  animation: btn-anim-map 2s linear infinite;
+}
+
+@keyframes btn-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(20deg);
+  }
+
+  80% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes btn-anim-map {
+  0% {
+    transform: scale(0.5);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(0.5);
+  }
 }
